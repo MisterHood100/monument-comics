@@ -1,0 +1,53 @@
+.mission {
+    background-color: #003153;
+}
+
+.missionContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.missionImgWrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.missionImg {
+    width: 500px;
+}
+
+.missionTitle {
+    margin: 25px 0;
+    font-size: 50px;
+    color: #FFD700;
+}
+
+.missionText {
+    margin: 25px 100px;
+    font-size: 30px;
+    line-height: 1.5;
+    color: white;
+}
+
+@media (max-width: 900px) {
+
+    .missionImg {
+        width: 250px;
+    }
+
+    .missionTitle {
+        margin: 25px 0;
+        font-size: 30px;
+        color: #FFD700;
+    }
+    
+    .missionText {
+        margin: 25px 25px;
+        font-size: 20px;
+        line-height: 1.5;
+        color: white;
+    }
+
+}

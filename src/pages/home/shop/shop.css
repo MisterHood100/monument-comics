@@ -1,0 +1,119 @@
+.shop {
+    background-color: #003153;
+}
+
+.shopTitle {
+    padding: 30px 0;
+    text-align: center;
+    font-size: 50px;
+    color: #003153;
+    background-color: white;
+}
+
+.shopBtns {
+    display: flex;
+    justify-content: center;
+    margin: 25px;
+}
+
+.shopBtn {
+    border-radius: 10px;
+    width: 200px;
+    height: 75px;
+    font-size: 25px;
+    font-weight: 600;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.shopBtn:hover {
+    transition: all .2s ease-in-out;
+    transform: scale(1.2);
+    background-color:#FFD700;
+    color: white;
+}
+
+.shopComicsTitle {
+    margin: 50px 0;
+    text-align: center;
+    font-size: 35px;
+    color: #FFD700;
+}
+
+.shopComics {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.shopComic {
+    margin: 15px;
+    border-radius: 10px;
+    width: 500px;
+}
+
+.shopComic:hover {
+    transition: all .2s ease-in-out;
+    transform: scale(1.05);
+}
+
+.shopMerchTitle {
+    margin: 50px 0;
+    text-align: center;
+    font-size: 35px;
+    color: #FFD700;
+}
+
+.shopMerchandise {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.shopMerch {
+    margin: 15px;
+    border-radius: 10px;
+    width: 500px;
+}
+
+.shopMerch:hover {
+    transition: all .2s ease-in-out;
+    transform: scale(1.05);
+}
+
+@media (max-width: 900px) {
+    
+    .shopTitle {
+        padding: 30px 0;
+        text-align: center;
+        font-size: 35px;
+        color: #003153;
+    }
+    
+    .shopComicsTitle {
+        margin: 50px 0;
+        text-align: center;
+        font-size: 25px;
+        color: #FFD700;
+    }
+    
+    .shopComic {
+        margin: 10px;
+        border-radius: 10px;
+        width: 250px;
+    }
+
+    .shopMerchTitle {
+        margin: 50px 0;
+        text-align: center;
+        font-size: 25px;
+        color: #FFD700;
+    }
+
+    .shopMerch {
+        margin: 10px;
+        border-radius: 10px;
+        width: 250px;
+    }
+
+}

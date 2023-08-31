@@ -1,0 +1,9 @@
+.banner {
+    display: flex;
+    align-items: center;
+}
+
+.bannerImg {
+    margin-top: 50px;
+    width: 33.3%;
+}

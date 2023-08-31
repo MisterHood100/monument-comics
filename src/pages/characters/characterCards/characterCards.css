@@ -1,0 +1,55 @@
+.characterCards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.characterCard {
+    margin: 20px;
+    border-radius: 10px;
+    background-color: #003153;
+    cursor: pointer;
+    width: 400px;
+}
+
+.characterCard:hover {
+    margin: 10px;
+    transition: all .2s ease-in-out;
+    transform: scale(1.02);
+}
+
+.characterCardImg {
+    border-radius: 10px 10px 0 0;
+    object-fit: cover;
+    width: 400px;
+}
+
+.characterCardName {
+    margin: 10px;
+    font-size: 25px;
+    color: #FFD700;
+}
+
+@media (max-width: 900px) {
+    
+    .characterCard {
+        margin: 20px;
+        border-radius: 10px;
+        background-color: #003153;
+        cursor: pointer;
+        width: 300px;
+    }
+    
+    .characterCardImg {
+        border-radius: 10px 10px 0 0;
+        object-fit: cover;
+        width: 300px;
+    }
+
+    .characterCardName {
+        margin: 10px;
+        font-size: 20px;
+        color: #FFD700;
+    }
+
+}

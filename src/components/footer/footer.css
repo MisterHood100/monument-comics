@@ -1,0 +1,39 @@
+.footer {
+  left: 0;
+  bottom: 0;
+  background-color: #003153;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.footerMessage {
+  font-size: 20px;
+}
+
+.footerSocialIcon {
+  margin-top: 10px;
+  margin-right: 15px;
+  font-size: 36px;
+  cursor: pointer;
+}
+
+.footer a:link {
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+}
+
+.footer a:visited {
+  color: white;
+}
+
+.footer a:hover {
+  transition: all .2s ease-in-out;
+  transform: scale(1.2);
+  color: #FFD700;
+}
+
+.footer a:active {
+  color: #FFD700;
+}

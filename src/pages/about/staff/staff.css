@@ -1,0 +1,56 @@
+.staff {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+    text-align: center;
+}
+
+.staffIntro {
+    margin-bottom: 25px;
+    color: #003153;
+}
+
+.staffMemberPic {
+    margin-bottom: 25px;
+    border-radius: 100%;
+    width: 500px;
+}
+
+.staffMemberName {
+    margin-bottom: 10px;
+    font-size: 25px;
+    color: #003153;
+}
+
+.staffMemberTitle {
+    margin-bottom: 10px;
+    color: #FFD700;
+}
+
+.staffMemberInfo {
+    margin-bottom: 10px;
+    font-size: 25px;
+    line-height: 1.2;
+    color: #003153;
+}
+
+@media (max-width: 900px) {
+
+    .staffIntro {
+        margin-bottom: 25px;
+        font-size: 30px;
+        color: #003153;
+    }
+    
+    .staffMemberPic {
+        width: 250px;
+    }
+
+    .staffMemberInfo {
+        margin-bottom: 10px;
+        font-size: 20px;
+        line-height: 1.2;
+        color: #003153;
+    }
+}

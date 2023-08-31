@@ -1,0 +1,20 @@
+.characters {
+    margin: 50px;
+}
+
+.charactersTitle {
+    margin-bottom: 50px;
+    text-align: center;
+    color: #003153;
+}
+
+@media (max-width: 900px) {
+    
+    .charactersTitle {
+        margin-bottom: 20px;
+        font-size: 25px;
+        text-align: center;
+        color: #003153;
+    }
+
+}

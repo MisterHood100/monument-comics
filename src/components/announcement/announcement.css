@@ -1,0 +1,93 @@
+.announcement {
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid #FFD700;
+    width: 100%;
+    height: 75px;
+    top: 0;
+    background-color: #003153;  
+}
+
+.announcementLeft, .announcementRight {
+    flex: 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.announcementCenter {
+    flex: 6;
+}
+
+.announcementSocialIcon {
+    margin-right: 15px;
+    font-size: 36px;
+    cursor: pointer;
+}
+
+.announcementTitle {
+    padding: 25px;
+    margin: 0;
+    border-left: 2px solid #FFD700;
+    border-right: 2px solid #FFD700;
+    font-size: 26px;
+    text-align: center;
+    color: white;  
+}
+
+.announcementEmailIcon {
+    font-size: 36px;
+    color: white;
+    cursor: pointer;
+}
+
+.announcementEmailIcon:hover {
+    font-size: 36px;
+    color: #FFD700;
+    cursor: pointer;
+}
+
+.announcement a:link {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+.announcement a:visited {
+    color: white;
+}
+
+.announcement a:hover {
+    transition: all .2s ease-in-out;
+    transform: scale(1.2);
+    color: #FFD700;
+}
+
+.announcement a.active {
+    color: #FFD700;
+}
+
+@media (max-width: 900px) {
+    
+    .announcementSocialIcon {
+        margin: 0 5px;
+        font-size: 20px;
+        cursor: pointer;
+    }
+    
+    .announcementTitle {
+        padding: 20px 5px;
+        margin: 0;
+        border-left: 2px solid #FFD700;
+        border-right: 2px solid #FFD700;
+        font-size: 15px;
+        color: white;   
+    }
+    
+    .announcementEmailIcon {
+        font-size: 20px;
+        color: white;
+        cursor: pointer;
+    }
+
+}

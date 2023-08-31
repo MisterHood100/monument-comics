@@ -1,0 +1,89 @@
+.carouselWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 25px 0;
+}
+
+.carousel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 800px;
+}
+
+.slide {
+    border-radius: 0.5rem;
+    box-shadow: 0 0 8px #666;
+    width: 100%;
+    height: 100%;
+}
+
+.slide-hidden {
+    display: none;
+}
+
+.carouselArrow {
+    position: absolute;
+    width: 2rem;
+    height: 2rem;
+    font-size: 30px;
+    color: white;
+    filter: drop-shadow(0 0 5px #555);
+}
+
+.carouselArrow:hover {
+    cursor: pointer;
+}
+
+.carouselArrowLeft {
+    left: 1rem;
+}
+
+.carouselArrowRight {
+    right: 1rem;
+}
+
+.carouselIndicators {
+    display: flex;
+    position: absolute;
+    bottom: 1rem;
+}
+
+.carouselIndicator {
+    margin: 0 0.2rem;
+    border-radius: 100%;
+    border: none;
+    outline: none;
+    box-shadow:  0 0 5px #555;
+    height: 15px;
+    width: 15px;
+    background-color: white;
+    cursor: pointer;
+}
+
+.carouselIndicator-inactive {
+    background-color: grey;
+}
+
+@media (max-width: 900px) {
+    
+    .carouselWrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 10px 0;
+    }
+    
+    .carousel {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        height: 500px;
+    }
+
+}
