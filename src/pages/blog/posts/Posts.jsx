@@ -15,7 +15,7 @@ function Posts() {
                 <hr />
                 <span className="postsDate">July 10, 2023</span>
                 <p className="postsDescription">
-                At this moment, I can finally say that the World of Monument Comics is no longer nearing its beginning, <b>IT HAS BEGUN!!!</b>
+                Monument Comics hasn't quite hit the ground running, yet. But, I can at the very least finally say, <b>IT HAS BEGUN!!!</b>
                 </p>
             </div>
         </div>
