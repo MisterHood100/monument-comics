@@ -1,0 +1,17 @@
+.notFound {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 200px;
+    height: 100vh;
+}
+
+.errorIcon {
+    margin: 0 25px;
+    font-size: 50px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 50px;
+}

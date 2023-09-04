@@ -15,6 +15,7 @@ import Blog from "./pages/blog/Blog"
 import Character from "./pages/character/Character"
 import { CharacterData } from "./components/CharacterData"
 import Post from "./pages/blog/post/Post"
+import NotFound from "./components/NotFound"
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
         <Route path="blog" element={<Blog />} />
         <Route path="characters/character" element={<Character data={CharacterData} />} />
         <Route path="blog/post" element={<Post />} />
+        <Route path="*" element={<NotFound />} />
       </Routes>
       <Footer />
     </>
