@@ -25,10 +25,10 @@
     font-weight: 600;
     text-decoration: none;
     cursor: pointer;
+    transition: all .2s ease-in-out;
 }
 
 .shopBtn:hover {
-    transition: all .2s ease-in-out;
     transform: scale(1.2);
     background-color:#FFD700;
     color: white;
@@ -51,10 +51,10 @@
     margin: 15px;
     border-radius: 10px;
     width: 500px;
+    transition: all .2s ease-in-out;
 }
 
 .shopComic:hover {
-    transition: all .2s ease-in-out;
     transform: scale(1.05);
 }
 
@@ -75,10 +75,10 @@
     margin: 15px;
     border-radius: 10px;
     width: 500px;
+    transition: all .2s ease-in-out;
 }
 
 .shopMerch:hover {
-    transition: all .2s ease-in-out;
     transform: scale(1.05);
 }
 
