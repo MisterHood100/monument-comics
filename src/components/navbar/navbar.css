@@ -49,6 +49,7 @@
     text-decoration: none;
     color: white;
     cursor: pointer;
+    transition: all .2s ease-in-out;
 }
 
 .navbar a:visited {
@@ -56,7 +57,6 @@
 }
 
 .navbar a:hover {
-    transition: all .2s ease-in-out;
     transform: scale(1.2);
     color: #FFD700;
 }
@@ -71,8 +71,18 @@
 
     .show {
         display:inline-block;
+        padding: 10px;
         color: white;
-        padding: 10px; 
+        cursor: pointer;
+        transition: all .2s ease-in-out; 
+    }
+
+    .show:hover {
+        display:inline-block;
+        padding: 10px;
+        color: #FFD700;
+        cursor: pointer;
+        transform: scale(1.2); 
     }
 
     .navbar {
@@ -83,6 +93,26 @@
         top: 0;
         background-color: #003153;
         z-index: 1;
+    }
+
+    .navBarIconsMobile {
+        flex: 3;
+        display: flex;
+        margin-bottom: 10px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .navBarSocialIconMobile {
+        margin: 0 10px;
+        font-size: 24px;
+        cursor: pointer;
+    }
+
+    .navBarEmailIconMobile {
+        margin: 0 10px;
+        font-size: 24px;
+        cursor: pointer;
     }
 
     .navBarList {
@@ -123,7 +153,16 @@
         text-align: center;
         color: white;
         cursor: pointer;
+    }  
+
+    .navBarListItemMobile:hover {
+        display: flex;
+        margin: 12px 6px;
+        font-size: 16px;
+        font-weight: 300;
+        text-align: center;
+        color: #FFD700;
+        cursor: pointer;
     }
-    
 
 }

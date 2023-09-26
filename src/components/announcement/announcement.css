@@ -51,6 +51,7 @@
     text-decoration: none;
     color: white;
     cursor: pointer;
+    transition: all .2s ease-in-out;
 }
 
 .announcement a:visited {
@@ -58,7 +59,6 @@
 }
 
 .announcement a:hover {
-    transition: all .2s ease-in-out;
     transform: scale(1.2);
     color: #FFD700;
 }
@@ -69,17 +69,18 @@
 
 @media (max-width: 900px) {
     
-    .announcementSocialIcon {
-        margin: 0 5px;
-        font-size: 20px;
-        cursor: pointer;
+    .announcementLeft, .announcementRight {
+        display: none;
+        flex: 3;
+        align-items: center;
+        justify-content: center;
     }
     
     .announcementTitle {
         padding: 20px 5px;
         margin: 0;
-        border-left: 2px solid #FFD700;
-        border-right: 2px solid #FFD700;
+        border-left: none;
+        border-right: none;
         font-size: 15px;
         color: white;   
     }

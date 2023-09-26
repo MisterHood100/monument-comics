@@ -55,6 +55,7 @@
     text-decoration: none;
     color: black;
     cursor: pointer;
+    transition: all .2s ease-in-out;
 }
 
 .posts a:visited {
@@ -62,7 +63,6 @@
 }
 
 .posts a:hover {
-    transition: all .2s ease-in-out;
     transform: scale(1.2);
     color: #FFD700;
 }
