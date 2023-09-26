@@ -28,6 +28,23 @@
     cursor: pointer;
 }
 
+.navBarListMobile {
+    display: none;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.navBarListItemMobile {
+    display: none;
+    margin: 20px;
+    font-size: 24px;
+    font-weight: 300;
+    cursor: pointer;
+}
+
+
 .navbar a:link {
     text-decoration: none;
     color: white;
@@ -69,7 +86,7 @@
     }
 
     .navBarList {
-        display: flex;
+        display: none;
         flex-direction: column;
         justify-content: center;
         align-items: center;
@@ -79,7 +96,7 @@
     }
 
     .navBarListItem {
-        display: flex;
+        display: none;
         margin: 12px 6px;
         font-size: 12px;
         font-weight: 300;
@@ -87,5 +104,26 @@
         color: white;
         cursor: pointer;
     }
+
+    .navBarListMobile {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+        margin: 0;
+        list-style: none;
+    }
+    
+    .navBarListItemMobile {
+        display: flex;
+        margin: 12px 6px;
+        font-size: 16px;
+        font-weight: 300;
+        text-align: center;
+        color: white;
+        cursor: pointer;
+    }
+    
 
 }

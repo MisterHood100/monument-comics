@@ -17,6 +17,7 @@
 }
 
 .shopBtn {
+    border: none;
     border-radius: 10px;
     width: 200px;
     height: 75px;
