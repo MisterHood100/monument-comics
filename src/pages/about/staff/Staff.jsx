@@ -11,7 +11,7 @@ function Staff() {
                         <img src={Founder} alt="Branden Hood" className="staffMemberPic" />
                         <h2 className="staffMemberName">Branden Hood</h2>
                         <h3 className="staffMemberTitle"><i>Founder & Creator</i></h3>
-                        <p className="staffMemberInfo">Branden Hood, also known as <i><q>Mister Monument</q></i>, is the founder of Monument Comics and the Writer and Creator of titles <i>KING</i>, <i>Solfire</i> & <i>ReFlex</i>.</p>
+                        <p className="staffMemberInfo">Branden Hood is the founder of Monument Comics and the Writer and Creator of titles <i>KING</i>, <i>Solfire</i> & <i>ReFlex</i>.</p>
                     </div>
                 </div>
             </div>

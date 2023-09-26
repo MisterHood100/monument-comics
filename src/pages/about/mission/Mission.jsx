@@ -18,7 +18,7 @@ function Mission() {
                 </div>
                 <div className="missionWhy">
                     <h1 className="missionTitle missionWhyTitle">WHY WE DO IT</h1>
-                    <p className="missionText missionWhyText">We do it because, like generations past, present and future, we were raised on comic books and all comic media -- Animation and Live Action -- and were inspired to tell our own stories. Here at Monument Comics, we believe that we have entertaining and nuanced stories that cannot be told by anyone else about heroes that you cannot find anywhere else.</p>
+                    <p className="missionText missionWhyText">We do it because we love comic books and were inspired to tell our own stories. Here at Monument Comics, we believe that we have entertaining and nuanced stories that cannot be told by anyone else about heroes that you cannot find anywhere else.</p>
                 </div>
             </div>
         </div>
