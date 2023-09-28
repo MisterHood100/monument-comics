@@ -33,7 +33,6 @@
 }
 
 .postsDate {
-    margin-top: 10px;
     font-style: italic;
     font-size: 16px;
     color: black;
@@ -69,4 +68,10 @@
 
 .posts a.active {
     color: #FFD700;
+}
+
+@media (max-width: 900px) {
+
+
+
 }

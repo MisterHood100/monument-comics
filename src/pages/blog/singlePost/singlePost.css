@@ -75,3 +75,39 @@
     font-weight: 800px;
     color: #003153;
 }
+
+/* MEDIA QUERIES */
+
+@media (max-width: 900px) {
+
+    .singlePostTitle {
+        margin: 10px;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .singlePostInfo {
+        display: flex;
+        justify-content: space-between;
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom: 20px;
+        font-size: 15px;
+        color: #003153;
+    }
+
+    .singlePostDescription {
+        margin: 15px 10px;
+        font-size: 20px;
+        line-height: 30px;
+        color: #003153;
+    }
+    
+    .singlePostDescription::first-letter {
+        margin-left: 20px;
+        font-size: 35px;
+        font-weight: 800px;
+        color: #003153;
+    }
+
+}

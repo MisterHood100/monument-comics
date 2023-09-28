@@ -44,6 +44,14 @@
         width: 200px;
     }
 
+    .headerContent {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 15px;
+        color: #003153;
+    }
+
     .headerTitle {
         font-size: 30px;
         text-align: center;

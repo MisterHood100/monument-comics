@@ -3,6 +3,19 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    margin: 20px;
-    margin-bottom: 465px;
+    margin: 50px 20px;
+    margin-bottom: 300px;
+}
+
+@media (max-width: 900px) {
+
+    .blog {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin: 50px 0;
+        margin-bottom: 300px;
+    }
+
 }
