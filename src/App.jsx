@@ -9,11 +9,10 @@ import Footer from "./components/footer/Footer"
 import Home from "./pages/home/Home"
 import About from "./pages/about/About"
 import Characters from "./pages/characters/Characters"
+import Character from "./pages/character/Character"
 import Blog from "./pages/blog/Blog"
 
 // Data Components
-import Character from "./pages/character/Character"
-import { CharacterData } from "./components/CharacterData"
 import Post from "./pages/blog/post/Post"
 import NotFound from "./components/NotFound"
 
@@ -26,8 +25,8 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="about" element={<About />} />
         <Route path="characters" element={<Characters />} />
+        <Route path="character" element={<Character />} />
         <Route path="blog" element={<Blog />} />
-        <Route path="characters/character" element={<Character data={CharacterData} />} />
         <Route path="blog/post" element={<Post />} />
         <Route path="*" element={<NotFound />} />
       </Routes>

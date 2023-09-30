@@ -1,11 +1,16 @@
-import "./character.css"
+import "./character.css";
+import CharacterData from "../../components/CharacterData";
 
-const Character = ({ data }) => {
+
+const character = CharacterData;
+// const results = character.filter(data => data.id === 1)
+
+function Character() {
     return (
         <div className="character">
-            {data.map((character, id) => {
+            {character.map((character) => {
                 return (
-                    <div key={id} className="character">
+                    <div key={character.id} className="character">
                         <div className="characterImgs">
                             <img src={character.image1} alt={character.alt1} className="characterImg" />
                             <img src={character.image2} alt={character.alt2} className="characterImg" />
