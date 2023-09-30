@@ -3,12 +3,12 @@ import CharacterData from "../../components/CharacterData";
 
 
 const character = CharacterData;
-// const results = character.filter(data => data.id === 1)
+const results = character.filter(data => data.id === 1);
 
-function Character() {
+function Character1() {
     return (
         <div className="character">
-            {character.map((character) => {
+            {results.map((character) => {
                 return (
                     <div key={character.id} className="character">
                         <div className="characterImgs">
@@ -59,4 +59,4 @@ function Character() {
     )
 }
 
-export default Character
+export default Character1;

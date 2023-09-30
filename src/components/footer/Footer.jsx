@@ -1,9 +1,10 @@
 import "./footer.css"
+import FooterIcon from "../../assets/Icon.png"
 
 function Footer() {
     return (
         <div className="footer">
-            <img className="footerImage" src="/favicon.png" alt="Monument Comics Logo" />
+            <img className="footerIcon" src={FooterIcon} alt="Monument Comics Logo" />
             <div className="footerSocialMedia">
                 <h4 className="footerMessage">Follow Monument Comics On Social Media</h4>
                 <div className="footerSocialIcons">

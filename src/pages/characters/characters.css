@@ -2,13 +2,30 @@
     margin: 50px;
 }
 
+.charactersIconWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.charactersIcon {
+    width: 200px;
+    position: center;
+}
+
 .charactersTitle {
-    margin-bottom: 50px;
+    margin-bottom: 25px;
     text-align: center;
     color: #003153;
 }
 
 @media (max-width: 900px) {
+
+    .charactersIcon {
+        width: 150px;
+        position: center;
+    }
     
     .charactersTitle {
         margin-bottom: 20px;
