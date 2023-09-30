@@ -5,7 +5,7 @@ import Person1 from "../assets/Person-1.jpg"
 import Person2 from "../assets/Person-2.jpg"
 import Person3 from "../assets/Person-3.jpg"
 
-export const CharacterData = [
+const CharacterData = [
     {
         id: 1,
         image1: Hero1,
@@ -158,3 +158,5 @@ export const CharacterData = [
         would know is special.`
     }
 ]
+
+export default CharacterData;
