@@ -1,5 +1,5 @@
-import "./footer.css"
-import FooterIcon from "../../assets/Icon.png"
+import "./footer.css";
+import FooterIcon from "../../assets/Icon.png";
 
 function Footer() {
     return (

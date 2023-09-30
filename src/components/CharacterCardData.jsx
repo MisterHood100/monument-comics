@@ -1,6 +1,6 @@
-import Hero1 from "../assets/Hero-1.jpg"
-import Hero2 from "../assets/Hero-2.jpg"
-import Hero3 from "../assets/Hero-3.jpg"
+import Hero1 from "../assets/Hero-1.jpg";
+import Hero2 from "../assets/Hero-2.jpg";
+import Hero3 from "../assets/Hero-3.jpg";
 
 const CharacterCardData = [
     {

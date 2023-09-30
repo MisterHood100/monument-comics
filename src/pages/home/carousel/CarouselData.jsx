@@ -1,9 +1,9 @@
-import Hero1 from "../../../assets/Hero-1.jpg"
-import Hero2 from "../../../assets/Hero-2.jpg"
-import Hero3 from "../../../assets/Hero-3.jpg"
-import Person1 from "../../../assets/Person-1.jpg"
-import Person2 from "../../../assets/Person-2.jpg"
-import Person3 from "../../../assets/Person-3.jpg"
+import Hero1 from "../../../assets/Hero-1.jpg";
+import Hero2 from "../../../assets/Hero-2.jpg";
+import Hero3 from "../../../assets/Hero-3.jpg";
+import Person1 from "../../../assets/Person-1.jpg";
+import Person2 from "../../../assets/Person-2.jpg";
+import Person3 from "../../../assets/Person-3.jpg";
 
 export const CarouselData = [
     {

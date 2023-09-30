@@ -3,7 +3,7 @@ import Banner from "./banner/Banner";
 import Shop from "./shop/Shop";
 import Carousel from "./carousel/Carousel";
 import { CarouselData } from "./carousel/CarouselData";
-import "./home.css"
+import "./home.css";
 
 
 function Home() {

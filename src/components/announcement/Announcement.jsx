@@ -1,4 +1,4 @@
-import "./announcement.css"
+import "./announcement.css";
 
 function Announcement() {
     return (

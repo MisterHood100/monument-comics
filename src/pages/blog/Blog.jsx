@@ -1,4 +1,4 @@
-import "./blog.css"
+import "./blog.css";
 import Posts from "./posts/Posts";
 
 function Blog() {

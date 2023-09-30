@@ -1,5 +1,5 @@
 import SinglePost from "../singlePost/SinglePost";
-import "./post.css"
+import "./post.css";
 
 function Post() {
     return (

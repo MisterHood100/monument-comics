@@ -1,5 +1,5 @@
-import "./staff.css"
-import Founder from "../../../assets/Founder.jpg"
+import "./staff.css";
+import Founder from "../../../assets/Founder.jpg";
 
 function Staff() {
     return (

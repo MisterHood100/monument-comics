@@ -1,4 +1,4 @@
-import "./shop.css"
+import "./shop.css";
 
 function Shop() {
     return (

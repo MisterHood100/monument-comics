@@ -1,6 +1,6 @@
-import "./posts.css"
-import PostImage from "../../../assets/Logo-1.png"
 import { NavLink } from "react-router-dom";
+import "./posts.css";
+import PostImage from "../../../assets/Logo-1.png";
 
 function Posts() {
     return (

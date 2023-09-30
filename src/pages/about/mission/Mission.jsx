@@ -1,5 +1,5 @@
-import "./mission.css"
-import Logo from "../../../assets/Logo-2.png"
+import "./mission.css";
+import Logo from "../../../assets/Logo-2.png";
 
 function Mission() {
     return (

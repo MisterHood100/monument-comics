@@ -1,5 +1,5 @@
-import "./singlePost.css"
-import SinglePostImg from "../../../assets/Logo-1.png"
+import "./singlePost.css";
+import SinglePostImg from "../../../assets/Logo-1.png";
 
 function SinglePost() {
     return (

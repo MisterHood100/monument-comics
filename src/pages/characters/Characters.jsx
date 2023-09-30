@@ -1,5 +1,5 @@
+import "./characters.css";
 import CharacterCards from "../characterCards/CharacterCards";
-import "./characters.css"
 import Icon from "../../assets/Icon.png";
 
 function Characters() {

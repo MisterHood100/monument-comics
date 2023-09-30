@@ -1,4 +1,4 @@
-import "./notFound.css"
+import "./notFound.css";
 
 const NotFound = () => (
     <div className="mainContent notFound">

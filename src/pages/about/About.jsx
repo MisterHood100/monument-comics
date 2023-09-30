@@ -1,4 +1,4 @@
-import "./about.css"
+import "./about.css";
 import Mission from "./mission/Mission";
 import Staff from "./staff/Staff";
 
