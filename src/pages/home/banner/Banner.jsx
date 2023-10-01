@@ -1,7 +1,7 @@
 import "./banner.css";
-import King from "../../../assets/Hero-1.jpg";
-import Solfire from "../../../assets/Hero-2.jpg";
-import Reflex from "../../../assets/Hero-3.jpg";
+import King from "../../../assets/King.jpg";
+import Solfire from "../../../assets/Solfire.jpg";
+import Reflex from "../../../assets/ReFlex.jpg";
 
 function Banner() {
     return (

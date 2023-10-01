@@ -1,11 +1,10 @@
 import "./character.css";
 import CharacterData from "../../components/CharacterData";
 
-
 const character = CharacterData;
-const results = character.filter(data => data.id === 1);
+const results = character.filter(data => data.id === 3);
 
-function Character1() {
+function Reflex() {
     return (
         <div className="character">
             {results.map((character) => {
@@ -59,4 +58,4 @@ function Character1() {
     )
 }
 
-export default Character1;
+export default Reflex;

@@ -1,11 +1,10 @@
 import "./character.css";
 import CharacterData from "../../components/CharacterData";
 
-
 const character = CharacterData;
-const results = character.filter(data => data.id === 3);
+const results = character.filter(data => data.id === 2);
 
-function Character3() {
+function Solfire() {
     return (
         <div className="character">
             {results.map((character) => {
@@ -59,4 +58,4 @@ function Character3() {
     )
 }
 
-export default Character3;
+export default Solfire;

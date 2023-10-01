@@ -1,11 +1,10 @@
 import "./character.css";
 import CharacterData from "../../components/CharacterData";
 
-
 const character = CharacterData;
-const results = character.filter(data => data.id === 2);
+const results = character.filter(data => data.id === 1);
 
-function Character2() {
+function King() {
     return (
         <div className="character">
             {results.map((character) => {
@@ -59,4 +58,4 @@ function Character2() {
     )
 }
 
-export default Character2;
+export default King;
