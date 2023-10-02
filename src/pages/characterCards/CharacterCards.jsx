@@ -13,7 +13,7 @@ function CharacterCards() {
             {results1.map((cardData) => {
                 return (
                     <div key={cardData.id} className="characterCard">
-                        <NavLink to={"/King"}><img src={cardData.img} alt={cardData.alt} className="characterCardImg" /></NavLink>
+                        <NavLink to={"/characters/King"}><img src={cardData.img} alt={cardData.alt} className="characterCardImg" /></NavLink>
                         <h1 className="characterCardName">{cardData.name}</h1>
                     </div>
                 )
@@ -21,7 +21,7 @@ function CharacterCards() {
             {results2.map((cardData) => {
                 return (
                     <div key={cardData.id} className="characterCard">
-                    <NavLink to={"/Solfire"}><img src={cardData.img} alt={cardData.alt} className="characterCardImg" /></NavLink>
+                    <NavLink to={"/characters/Solfire"}><img src={cardData.img} alt={cardData.alt} className="characterCardImg" /></NavLink>
                         <h1 className="characterCardName">{cardData.name}</h1>
                     </div>
                 )
@@ -29,7 +29,7 @@ function CharacterCards() {
             {results3.map((cardData) => {
                 return (
                     <div key={cardData.id} className="characterCard">
-                    <NavLink to={"/Reflex"}><img src={cardData.img} alt={cardData.alt} className="characterCardImg" /></NavLink>
+                    <NavLink to={"/characters/Reflex"}><img src={cardData.img} alt={cardData.alt} className="characterCardImg" /></NavLink>
                         <h1 className="characterCardName">{cardData.name}</h1>
                     </div>
                 )

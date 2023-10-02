@@ -30,9 +30,9 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="about" element={<About />} />
         <Route path="characters" element={<Characters />} />
-        <Route path="King" element={<King />} />
-        <Route path="Solfire" element={<Solfire />} />
-        <Route path="Reflex" element={<Reflex />} />
+        <Route path="characters/King" element={<King />} />
+        <Route path="characters/Solfire" element={<Solfire />} />
+        <Route path="characters/Reflex" element={<Reflex />} />
         <Route path="blog" element={<Blog />} />
         <Route path="blog/post" element={<Post />} />
         <Route path="*" element={<NotFound />} />
