@@ -10,6 +10,7 @@ function Characters() {
             </div>
 
             <h1 className="charactersTitle">THE HEROES OF MONUMENT COMICS</h1>
+            <hr />
             <CharacterCards />
         </div>
     )
