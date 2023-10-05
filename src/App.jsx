@@ -12,7 +12,7 @@ import About from "./pages/about/About";
 import Characters from "./pages/characters/Characters";
 import King from "./pages/character/King";
 import Solfire from "./pages/character/Solfire";
-import Flex from "./pages/character/Flex";
+import Reflex from "./pages/character/Reflex";
 import Blog from "./pages/blog/Blog";
 
 // Data Components
@@ -32,7 +32,7 @@ function App() {
         <Route path="characters" element={<Characters />} />
         <Route path="characters/King" element={<King />} />
         <Route path="characters/Solfire" element={<Solfire />} />
-        <Route path="characters/Flex" element={<Flex />} />
+        <Route path="characters/Flex" element={<Reflex />} />
         <Route path="blog" element={<Blog />} />
         <Route path="blog/post" element={<Post />} />
         <Route path="*" element={<NotFound />} />

@@ -4,7 +4,7 @@ import CharacterData from "../../components/CharacterData";
 const character = CharacterData;
 const results = character.filter(data => data.id === 3);
 
-function Flex() {
+function Reflex() {
     return (
         <div className="character">
             {results.map((character) => {
@@ -58,4 +58,4 @@ function Flex() {
     )
 }
 
-export default Flex;
+export default Reflex;
