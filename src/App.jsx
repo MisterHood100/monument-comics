@@ -32,7 +32,7 @@ function App() {
         <Route path="characters" element={<Characters />} />
         <Route path="characters/King" element={<King />} />
         <Route path="characters/Solfire" element={<Solfire />} />
-        <Route path="characters/Flex" element={<Reflex />} />
+        <Route path="characters/Reflex" element={<Reflex />} />
         <Route path="blog" element={<Blog />} />
         <Route path="blog/post" element={<Post />} />
         <Route path="*" element={<NotFound />} />
