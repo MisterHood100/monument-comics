@@ -11,7 +11,7 @@
 }
 
 .headerTitle {
-    font-size: 75px;
+    font-size: 65px;
     text-align: center;
 }
 
@@ -35,7 +35,7 @@
 }
 
 .headerImg {
-    width: 450px;
+    width: 500px;
 }
 
 @media (max-width: 900px) {

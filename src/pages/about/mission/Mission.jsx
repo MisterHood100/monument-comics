@@ -10,7 +10,7 @@ function Mission() {
             <div className="missionContent">
                 <div className="missionWho">
                     <h1 className="missionTitle missionWhoTitle">WHO WE ARE</h1>
-                    <p className="missionText missionWhoText">We are Monument Comics, an independent comic book publisher based in Pasadena, California.</p>
+                    <p className="missionText missionWhoText">We are Monument Comics, a comic book publisher based in Pasadena, California.</p>
                 </div>
                 <div className="missionWhat">
                     <h1 className="missionTitle missionWhatTitle">WHAT WE DO</h1>
