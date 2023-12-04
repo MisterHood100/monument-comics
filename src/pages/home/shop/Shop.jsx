@@ -15,9 +15,9 @@ function Shop() {
             </div>
             <h2 className="shopMerchTitle">FEATURED MERCHANDISE</h2>
             <div className="shopMerchandise">
-                <a href="https://monumentcomicsworld.com/products/monument-comics-logo-short-sleeve-t-shirt?variant=41522960760889" target="_blank" rel="noreferrer"><img className="shopMerch" src="https://monumentcomicsworld.com/cdn/shop/files/mens-classic-tee-black-front-64f682583e65a.jpg?v=1693876874&width=823" alt="Merch 1" /></a>
-                <a href="https://monumentcomicsworld.com/products/monument-comics-logo-short-sleeve-t-shirt-2?variant=41522972524601" target="_blank" rel="noreferrer"><img className="shopMerch" src="https://monumentcomicsworld.com/cdn/shop/files/mens-classic-tee-sport-grey-front-64f6832cc4eaa.jpg?v=1693877055&width=823" alt="Merch 2" /></a>
-                <a href="https://monumentcomicsworld.com/products/monument-comics-logo-short-sleeve-t-shirt-3?variant=41522983174201" target="_blank" rel="noreferrer"><img className="shopMerch" src="https://monumentcomicsworld.com/cdn/shop/files/mens-classic-tee-dark-heather-front-64f6841564cae.jpg?v=1693877286&width=823" alt="Merch 3" /></a>
+                <a href="https://monumentcomicsworld.com/products/monument-comics-logo-short-sleeve-t-shirt-a?variant=41828328341561" target="_blank" rel="noreferrer"><img className="shopMerch" src="https://monumentcomicsworld.com/cdn/shop/files/mens-classic-tee-dark-heather-front-656d42cb123ae.jpg?v=1701659357&width=823" alt="Merch 1" /></a>
+                <a href="https://monumentcomicsworld.com/products/monument-comics-logo-short-sleeve-t-shirt-a?variant=41828328570937" target="_blank" rel="noreferrer"><img className="shopMerch" src="https://monumentcomicsworld.com/cdn/shop/files/mens-classic-tee-sport-grey-front-656d42cb13f58.jpg?v=1701659363&width=823" alt="Merch 2" /></a>
+                <a href="https://monumentcomicsworld.com/products/monument-comics-logo-short-sleeve-t-shirt-b?variant=41828336566329" target="_blank" rel="noreferrer"><img className="shopMerch" src="https://monumentcomicsworld.com/cdn/shop/files/mens-classic-tee-black-front-656d436e53e47.jpg?v=1701659827&width=823" alt="Merch 3" /></a>
             </div>
 
         </div>
